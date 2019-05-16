@@ -3,7 +3,7 @@
 
 /*
 	Author: Jorge Gonzalez
-	Date:	01.30.2019
+	Date:	05/16/2019
 	File: 	styles.css
 */
 
@@ -22,6 +22,7 @@ body h1, h2, h3, h4, h5 {
 body {
 	font-family: 'Titillium Web', sans-serif;
 	/*background-image: linear-gradient(darkorange, orange, darkorange);*/
+	width: 100%;
 }
 
 /* Elements of the Header */
@@ -49,7 +50,7 @@ body header nav ul li a {
 }
 
 /* Elements of the About Section */
-body #about {
+#about {
 	background: orange;
 	color: white;
 	text-align: center;
@@ -57,12 +58,12 @@ body #about {
 	padding: 10px 0px 30px 0px;
 }
 
-body #about:hover {
+#about:hover {
 	background: tomato;
 }
 
 /* Elements of the Skills Section */
-body #skills {
+#skills {
 	background: orange;
 	color: white;
 	text-align: center;
@@ -70,12 +71,12 @@ body #skills {
 	padding: 10px 0px 30px 0px;
 }
 
-body #skills:hover {
+#skills:hover {
 	background: tomato;
 }
 
-/* Elements of the Resume Section */
-body #resume {
+/* Elements of the Showcase Section */
+#showcase {
 	background: orange;
 	color: white;
 	text-align: center;
@@ -83,20 +84,34 @@ body #resume {
 	padding: 10px 0px 30px 0px;
 }
 
-body #resume a {
+#showcase:hover {
+	background: tomato;
+}
+
+#screenOne, #screenTwo, #screenThree, #screenFour, #screenFive {
+	width: 50%;
+}
+
+/* Elements of the Resume Section */
+#resume {
+	background: orange;
+	color: white;
+	text-align: center;
+	margin: 5px 0px 5px 0px;
+	padding: 10px 0px 30px 0px;
+}
+
+#resume a {
 	text-decoration: none;
 	color: white;
 }
 
-body #resume p {
-}
-
-body #resume:hover {
+#resume:hover {
 	background: tomato;
 }
 
 /* Elements of the Contact Section */
-body #contact {
+#contact {
 	background: orange;
 	color: white;
 	text-align: center;
@@ -104,35 +119,35 @@ body #contact {
 	padding: 10px 0px 30px 0px;
 }
 
-body #contact form {
+#contact form {
 	width: 80%;
 	margin: 0 auto;
 }
 
-body #contact form input {
+#contact form input {
 	text-align: center;
 }
 
-body #contact form label, input, textarea {
+#contact form label, input, textarea {
 	display: inline-block;
 }
 
-body #contact form label {
+#contact form label {
 	width: 30%;
 	text-align: right;
 }
 
-body #contact form label + input {
+#contact form label + input {
 	width: 30%;
 	margin: 0 30% 0 4%;
 }
 
-body #contact form textarea {
+#contact form textarea {
 	width: 30%;
 	margin: -2% 30% 0 4%;
 }
 
-body #contact:hover {
+#contact:hover {
 	background: tomato;
 }
 
