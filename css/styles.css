@@ -110,6 +110,10 @@ body header nav ul li a {
 	background: tomato;
 }
 
+#resumeLink: hover {
+	color: orange;
+}
+
 /* Elements of the Contact Section */
 #contact {
 	background: orange;
