@@ -1,0 +1,170 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Raleway|Titillium+Web');
+
+/*
+	Author: Jorge Gonzalez
+	Date:	05/16/2019
+	File: 	styles.css
+*/
+
+html {
+	width: 100%;
+	margin: 0;
+	/*padding: 0;*/
+}
+
+/* Headers */
+body h1, h2, h3, h4, h5 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+}
+
+/* Elements of the Body */
+body {
+	font-family: 'Titillium Web', sans-serif;
+	/*background-image: linear-gradient(darkorange, orange, darkorange);*/
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/* Elements of the Header */
+body header h1 {
+	text-align: center;
+	color: #343a40;
+	font-size: 230%;
+}
+
+/* Elements of the Nav */
+body header nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+body header nav ul li {
+	display: inline;
+}
+
+body header nav ul li a {
+	text-decoration: none;
+	padding: 0.35%;
+	color: #343a40;
+}
+
+/* Elements of the About Section */
+#about {
+	background: #343a40;
+	color: white;
+	text-align: center;
+	margin: 5px 0px 5px 0px;
+	padding: 10px 0px 30px 0px;
+}
+
+/*#about:hover {
+	background: tomato;
+}*/
+
+/* Elements of the Skills Section */
+#skills {
+	background: #343a40;
+	color: white;
+	text-align: center;
+	margin: 5px 0px 5px 0px;
+	padding: 10px 0px 30px 0px;
+}
+
+/*#skills:hover {
+	background: tomato;
+}*/
+
+/* Elements of the Showcase Section */
+#showcase {
+	background: #343a40;
+	color: white;
+	text-align: center;
+	margin: 5px 0px 5px 0px;
+	padding: 10px 0px 30px 0px;
+}
+
+/*#showcase:hover {
+	background: tomato;
+}*/
+
+#screenOne, #screenTwo, #screenThree, #screenFour, #screenFive {
+	width: 50%;
+}
+
+/* Elements of the Resume Section */
+#resume {
+	background: #343a40;
+	color: white;
+	text-align: center;
+	margin: 5px 0px 5px 0px;
+	padding: 10px 0px 30px 0px;
+}
+
+#resume a {
+	text-decoration: none;
+	color: white;
+}
+
+#resume a:hover {
+	color: tomato;
+}
+
+#resumeLink: hover {
+	color: orange;
+}
+
+/* Elements of the Contact Section */
+#contact {
+	background: #343a40;
+	color: white;
+	text-align: center;
+	margin: 5px 0px 5px 0px;
+	padding: 10px 0px 30px 0px;
+}
+
+#contact form {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#contact a {
+	text-decoration: none;
+	color: white;
+}
+
+#contact form input {
+	text-align: center;
+}
+
+#contact form label, input, textarea {
+	display: inline-block;
+}
+
+#contact form label {
+	width: 30%;
+	text-align: right;
+}
+
+#contact form label + input {
+	width: 30%;
+	margin: 0 30% 0 4%;
+}
+
+#contact form textarea {
+	width: 30%;
+	margin: -2% 30% 0 4%;
+}
+
+#contact a:hover {
+	color: tomato;
+}
+
+/* Elements of the Footer */
+body footer {
+	color: #343a40;
+	text-align: center;
+}
