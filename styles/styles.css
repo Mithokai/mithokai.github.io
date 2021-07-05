@@ -54,7 +54,7 @@ body header nav ul li a {
 
 /* Elements of the About Section */
 #about {
-	background: #343a40;
+	background: #212529;
 	color: white;
 	text-align: center;
 	margin: 5px 0px 5px 0px;
@@ -67,7 +67,7 @@ body header nav ul li a {
 
 /* Elements of the Skills Section */
 #skills {
-	background: #343a40;
+	background: #212529;
 	color: white;
 	text-align: center;
 	margin: 5px 0px 5px 0px;
@@ -80,7 +80,7 @@ body header nav ul li a {
 
 /* Elements of the Showcase Section */
 #showcase {
-	background: #343a40;
+	background: #212529;
 	color: white;
 	text-align: center;
 	margin: 5px 0px 5px 0px;
@@ -97,7 +97,7 @@ body header nav ul li a {
 
 /* Elements of the Resume Section */
 #resume {
-	background: #343a40;
+	background: #212529;
 	color: white;
 	text-align: center;
 	margin: 5px 0px 5px 0px;
@@ -119,7 +119,7 @@ body header nav ul li a {
 
 /* Elements of the Contact Section */
 #contact {
-	background: #343a40;
+	background: #212529;
 	color: white;
 	text-align: center;
 	margin: 5px 0px 5px 0px;
