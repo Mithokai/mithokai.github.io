@@ -22,11 +22,10 @@ body h1, h2, h3, h4, h5 {
 /* Elements of the Body */
 body {
 	font-family: 'Titillium Web', sans-serif;
-	/*background-image: linear-gradient(darkorange, orange, darkorange);*/
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	margin-top: 10%;
+	margin-top: 10% !important;
 }
 
 /* Elements of the Header */
