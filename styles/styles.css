@@ -28,35 +28,33 @@ body {
 }
 
 /* Header section elements */
-body header h1 {
-	text-align: center;
-	color: #343a40;
-	font-size: 230%;
+/* Nav section elements */
+.navbar-brand {
+	margin-left: 2.25%;
 }
 
-/* Nav section elements */
 #navbarSupportedContent {
 	margin: 0;
 	padding: 0;
-	display: flex;
-	justify-content: flex-end; /* Aligns items to the right */
 }
 
-body header nav ul {
+.navbar-nav {
 	list-style-type: none;
-	margin: 0;
+	margin: 0 0 0 auto;
 	padding: 0;
-}
-
-.nav-item {
-	/*display: inline;*/
 }
 
 .nav-item a {
 	color: #343a40;
 	text-decoration: none;
 	padding: 0.35%;
-	display: block;
+}
+
+/* Headings */
+body header h1 {
+	text-align: center;
+	color: #343a40;
+	font-size: 230%;
 }
 
 /* About section elements */
@@ -169,8 +167,8 @@ body footer {
 #backToTop {
 	visibility: hidden;
 	position: fixed;
-	bottom: 20px;
-	left: 20px;
+	bottom: 5%;
+	right: 5%;
 	z-index: 99;
 	border: none;
 	outline: none;
@@ -206,8 +204,8 @@ body footer {
 
 @media (max-width: 768px) {
 	#backToTop {
-		bottom: 15px;
-		right: 15px;
+		bottom: 5%;
+		right: 5%;
 		padding: 10px;
 		font-size: 16px;
 	}
