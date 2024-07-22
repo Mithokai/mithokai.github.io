@@ -19,7 +19,7 @@ body h1, h2, h3, h4, h5 {
 	font-weight: normal;
 }
 
-/* Elements of the Body */
+/* Body section elements */
 body {
 	font-family: 'Titillium Web', sans-serif;
 	width: 100%;
@@ -28,14 +28,14 @@ body {
 	margin-top: 6% !important;
 }
 
-/* Elements of the Header */
+/* Header section elements */
 body header h1 {
 	text-align: center;
 	color: #343a40;
 	font-size: 230%;
 }
 
-/* Elements of the Nav */
+/* Nav section elements */
 body header nav ul {
 	list-style-type: none;
 	margin: 0;
@@ -52,39 +52,39 @@ body header nav ul li a {
 	color: #343a40;
 }
 
-/* Elements of the About Section */
+/* About section elements */
 #about {
 	background: #212529;
 	color: white;
 	text-align: center;
-	margin: 5px 0px 5px 0px;
-	padding: 10px 0px 30px 0px;
+	margin: 5px 0 5px 0;
+	padding: 10px 0 30px 0;
 }
 
 /*#about:hover {
 	background: tomato;
 }*/
 
-/* Elements of the Skills Section */
+/* Skills section elements */
 #skills {
 	background: #212529;
 	color: white;
 	text-align: center;
-	margin: 5px 0px 5px 0px;
-	padding: 10px 0px 30px 0px;
+	margin: 5px 0 5px 0;
+	padding: 10px 0 30px 0;
 }
 
 /*#skills:hover {
 	background: tomato;
 }*/
 
-/* Elements of the Showcase Section */
+/* Showcase section elements */
 #showcase {
 	background: #212529;
 	color: white;
 	text-align: center;
-	margin: 5px 0px 5px 0px;
-	padding: 10px 0px 30px 0px;
+	margin: 5px 0 5px 0;
+	padding: 10px 0 30px 0;
 }
 
 /*#showcase:hover {
@@ -95,13 +95,13 @@ body header nav ul li a {
 	width: 50%;
 }
 
-/* Elements of the Resume Section */
+/* Resume section elements */
 #resume {
 	background: #212529;
 	color: white;
 	text-align: center;
-	margin: 5px 0px 5px 0px;
-	padding: 10px 0px 30px 0px;
+	margin: 5px 0 5px 0;
+	padding: 10px 0 30px 0;
 }
 
 #resume a {
@@ -113,17 +113,17 @@ body header nav ul li a {
 	color: tomato;
 }
 
-#resumeLink: hover {
+#resumeLink:hover {
 	color: orange;
 }
 
-/* Elements of the Contact Section */
+/* Contact section elements */
 #contact {
 	background: #212529;
 	color: white;
 	text-align: center;
-	margin: 5px 0px 5px 0px;
-	padding: 10px 0px 30px 0px;
+	margin: 5px 0 5px 0;
+	padding: 10px 0 30px 0;
 }
 
 #contact form {
@@ -163,14 +163,57 @@ body header nav ul li a {
 	color: tomato;
 }
 
-/* Elements of the Footer */
+/* Footer elements */
 body footer {
 	background: #212529;
 	text-align: center;
 	color: white;
 }
 
-/* .paraGraph { */
-/* 	width: 70% !important; */
-/* 	text-align: center; */
-/* } */
+/* Back to top button */
+#backToTop {
+	visibility: hidden;
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: #3498db;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 50%;
+	font-size: 18px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+	opacity: 0;
+	transition: opacity 0.3s, background-color 0.3s, transform 0.3s;
+}
+
+#backToTop:hover {
+	background-color: #2980b9;
+	transform: scale(1.1);
+}
+
+#backToTop i {
+	display: inline-block;
+	transition: transform 0.3s;
+}
+
+#backToTop:hover i {
+	transform: translateY(-3px);
+}
+
+#backToTop.show {
+	opacity: 1;
+	visibility: visible;
+}
+
+@media (max-width: 768px) {
+	#backToTop {
+		bottom: 15px;
+		right: 15px;
+		padding: 10px;
+		font-size: 16px;
+	}
+}
