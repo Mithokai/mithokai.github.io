@@ -10,7 +10,6 @@
 html {
 	width: 100%;
 	margin: 0;
-	/*padding: 0;*/
 }
 
 /* Headers */
@@ -36,20 +35,28 @@ body header h1 {
 }
 
 /* Nav section elements */
+#navbarSupportedContent {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: flex-end; /* Aligns items to the right */
+}
+
 body header nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
 
-body header nav ul li {
-	display: inline;
+.nav-item {
+	/*display: inline;*/
 }
 
-body header nav ul li a {
+.nav-item a {
+	color: #343a40;
 	text-decoration: none;
 	padding: 0.35%;
-	color: #343a40;
+	display: block;
 }
 
 /* About section elements */
@@ -61,10 +68,6 @@ body header nav ul li a {
 	padding: 10px 0 30px 0;
 }
 
-/*#about:hover {
-	background: tomato;
-}*/
-
 /* Skills section elements */
 #skills {
 	background: #212529;
@@ -74,10 +77,6 @@ body header nav ul li a {
 	padding: 10px 0 30px 0;
 }
 
-/*#skills:hover {
-	background: tomato;
-}*/
-
 /* Showcase section elements */
 #showcase {
 	background: #212529;
@@ -86,10 +85,6 @@ body header nav ul li a {
 	margin: 5px 0 5px 0;
 	padding: 10px 0 30px 0;
 }
-
-/*#showcase:hover {
-	background: tomato;
-}*/
 
 #screenOne, #screenTwo, #screenThree, #screenFour, #screenFive {
 	width: 50%;
@@ -110,11 +105,11 @@ body header nav ul li a {
 }
 
 #resume a:hover {
-	color: tomato;
+	color: cadetblue;
 }
 
 #resumeLink:hover {
-	color: orange;
+	color: blue;
 }
 
 /* Contact section elements */
@@ -132,8 +127,8 @@ body header nav ul li a {
 }
 
 #contact a {
-	text-decoration: none;
 	color: white;
+	text-decoration: none;
 }
 
 #contact form input {
@@ -160,7 +155,7 @@ body header nav ul li a {
 }
 
 #contact a:hover {
-	color: tomato;
+	color: cadetblue;
 }
 
 /* Footer elements */
