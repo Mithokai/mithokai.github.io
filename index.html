@@ -4,7 +4,7 @@
 	Author: Jorge Gonzalez
 	Date:	05/16/2019
 	File:	index.html
-	Desc:	Portfolio Website
+	Desc:	Portfolio Website. One page.
 -->
 
 <html lang="en-US">
@@ -20,7 +20,7 @@
 	<title>Jorge Gonzalez</title>
 </head>
 <body>
-	<header>
+	<header class="pt-5 custom-header">
 		<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
 			<a class="navbar-brand" href="#">Jorge Gonzalez</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,63 +29,71 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mb-2 mb-lg-0">
 					<li class="nav-item">
-						<a class="nav-link" href="#linkToSkills">Skills</a>
+						<a class="nav-link" id="linkToAbout" href="#aboutLink">About</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#linkToShowcase">Showcase</a>
+						<a class="nav-link" id="linkToSkills" href="#skillsLink">Skills</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#linkToResume">Resume</a>
+						<a class="nav-link" id="linkToShowcase" href="#showcaseLink">Showcase</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#linkToAbout">About</a>
+						<a class="nav-link" id="linkToResume" href="#resumeLink">Resume</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#linkToContact">Contact</a>
+						<a class="nav-link" id="linkToContact" href="#contactLink">Contact</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
+
 		<h1>Jorge Gonzalez</h1>
 	</header>
 	<main>
-		<section id="skills"><a id="linkToSkills"></a>
+		<hr>
+		<section class="pt-5" id="about_section">
+			<a id="aboutLink"></a>
+			<h4>About</h4>
+			<p>Hello! My name is Jorge Gonzalez, and I am a software developer with over 5 years experience in Python, Flask, and other web technologies.</p>
+		</section>
+		<hr>
+
+		<section id="skills_section">
+			<a id="skillsLink"></a>
 			<h4>Skills</h4>
 			<p>Python, Flask, PostgreSQL, HTML, CSS, JavaScript</p>
 		</section>
-		
-		<section id="showcase"><a id="linkToShowcase"></a>
+		<hr>
+
+		<section id="showcase_section">
+			<a id="showcaseLink"></a>
 			<h4>Showcase</h4>
 			<p>ESSDB (App)</p><br>
-
 			<figure>
 				<a href="assets/image/essdb_screenshots/essdb_login.jpg"><img class="wrkexp" id="screenOne" src="assets/image/essdb_screenshots/essdb_login.jpg" alt="1"></a>
 				<figcaption>ESSDB Login</figcaption>
 			</figure><br>
-
 			<figure>
 				<a href="assets/image/essdb_screenshots/essdb_home.JPG"><img class="" id="screenTwo" src="assets/image/essdb_screenshots/essdb_home.JPG" alt="2"></a>
 				<figcaption>ESSDB Dashboard</figcaption>
 			</figure><br>
-
 			<figure>
 				<a href="assets/image/essdb_screenshots/essdb_new_customer.JPG"><img class="" id="screenThree" src="assets/image/essdb_screenshots/essdb_new_customer.JPG" alt="3"></a>
 				<figcaption>ESSDB New Customer Page</figcaption>
 			</figure>
 		</section>
+		<hr>
 
-		<section id="about"><a id="linkToAbout"></a>
-			<h4>About</h4>
-			<p class="paraGraph">Hello! My name is Jorge Gonzalez, and I am a software developer with over 5 years experience in Python, Flask, and other web technologies.</p>
-		</section>
-		
-		<section id="resume"><a id="linkToResume"></a>
+		<section id="resume_section">
+			<a id="resumeLink"></a>
 			<h4>Resume</h4>
 			<p>You may download a copy of my resume below.</p>
-			<a id="resumeLink" href="assets/resume.docx" target="_blank">Download</a> (.docx format)
+			<a id="resumeDownloadLink" href="assets/resume.docx" target="_blank">Download</a> (.docx format)
 		</section>
-		
-		<section id="contact"><a id="linkToContact"></a>
+		<hr>
+
+		<section id="contact_section">
+			<a id="contactLink"></a>
 			<h4>Contact</h4>
 			<a href="https://www.linkedin.com/in/jorge-gonzalez-70b269106">LinkedIn</a>
 			<!--<p>You may contact me using the form below.</p>
@@ -108,8 +116,9 @@
 					<input type="submit" value="Submit">
 			</form>-->
 		</section>
+		<hr>
 	</main>
-	<footer id="footer"><p>&copy 2024 Jorge Gonzalez</p></footer>
+	<footer class="pt-5" id="footer"><p>&copy 2024 Jorge Gonzalez</p></footer>
 	<button id="backToTop" title="Back to Top"><i class="fas fa-chevron-up"></i></button>
 	<script src="scripts/scripts.js"></script>
 </body>

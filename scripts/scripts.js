@@ -1,3 +1,34 @@
+/* Navbar info */
+// Get navbar info
+document.addEventListener('DOMContentLoaded', function () {
+    const navbar = document.getElementsByClassName('navbar')[0];
+    if (navbar) {
+        const navbarHeight = navbar.offsetHeight;
+        console.log('Navbar Height: ', navbarHeight);
+    }
+})
+
+/* Script for navbar menu buttons */
+// Scrolling to individual sections using anchor tags
+document.querySelectorAll('a.nav-link').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+
+        const navbarHeight = document.querySelector('.navbar').offsetHeight;
+
+        // Calculate the scroll position, accounting for the fixed navbar
+        const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - navbarHeight;
+
+        window.scrollTo({
+            top: targetPosition,
+            behavior: 'smooth'
+        });
+    });
+});
+
 /* Script for back to top button */
 // Get back to top button
 let mybutton = document.getElementById('backToTop');
