@@ -1,4 +1,4 @@
-/* Navbar info */
+/* Navbar */
 // Get navbar info
 document.addEventListener('DOMContentLoaded', function () {
     const navbar = document.getElementsByClassName('navbar')[0];
@@ -7,6 +7,17 @@ document.addEventListener('DOMContentLoaded', function () {
         console.log('Navbar Height: ', navbarHeight);
     }
 })
+
+// Hide collapsed navbar menu on mobile view when a link is clicked
+document.addEventListener('DOMContentLoaded', function () {
+    var navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+    var menuToggle = document.getElementById('navbarSupportedContent');
+    var bsCollapse = new bootstrap.Collapse(menuToggle, {toggle: false});
+
+    navLinks.forEach(function(link) {
+        link.addEventListener('click', () => bsCollapse.hide())
+    });
+});
 
 /* Script for navbar menu buttons */
 // Scrolling to individual sections using anchor tags
