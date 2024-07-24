@@ -47,14 +47,22 @@ body h1, h2, h3, h4, h5 {
 
 .navbar-nav {
 	list-style-type: none;
-	margin: 0 0 0 auto;
-	padding: 0;
+	/*margin: 0 0 0 auto;*/
+	/*padding: 0;*/
 }
 
 .nav-item a {
 	color: #343a40;
 	text-decoration: none;
-	padding: 0.35%;
+	/*padding: 0.35%;*/
+}
+
+/* Navbar on mobile */
+/* https://claude.ai/chat/164ec7bf-402b-4407-bb9f-5ed0fe17a308 */
+@media (max-width: 991.98px) {
+	.navbar-nav {
+		text-align: right;
+	}
 }
 
 /* Headings */
