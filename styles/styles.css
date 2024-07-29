@@ -27,7 +27,6 @@ body {
 /* Headers */
 body h1, h2, h3, h4, h5 {
 	font-family: 'Raleway', sans-serif;
-	font-weight: normal;
 }
 
 /* Header section elements */
@@ -47,14 +46,11 @@ body h1, h2, h3, h4, h5 {
 
 .navbar-nav {
 	list-style-type: none;
-	/*margin: 0 0 0 auto;*/
-	/*padding: 0;*/
 }
 
 .nav-item a {
 	color: #343a40;
 	text-decoration: none;
-	/*padding: 0.35%;*/
 }
 
 /* Navbar on mobile */
@@ -74,29 +70,17 @@ body header h1 {
 
 /* About section elements */
 #about_section {
-	/*background: #212529;*/
-	/*color: white;*/
 	text-align: center;
-	/*margin: 5px 0 5px 0;*/
-	/*padding: 6% 0 2% 0;*/
 }
 
 /* Skills section elements */
 #skills_section {
-	/*background: #212529;*/
-	/*color: white;*/
 	text-align: center;
-	/*margin: 5px 0 5px 0;*/
-	/*padding: 6% 0 2% 0;*/
 }
 
 /* Showcase section elements */
 #showcase_section {
-	/*background: #212529;*/
-	/*color: white;*/
 	text-align: center;
-	/*margin: 5px 0 5px 0;*/
-	/*padding: 6% 0 2% 0;*/
 }
 
 #screenOne, #screenTwo, #screenThree, #screenFour, #screenFive {
@@ -105,40 +89,16 @@ body header h1 {
 
 /* Resume section elements */
 #resume_section {
-	/*background: #212529;*/
-	/*color: white;*/
 	text-align: center;
-	/*margin: 5px 0 5px 0;*/
-	/*padding: 6% 0 2% 0;*/
-}
-
-#resume_section a {
-	/*text-decoration: none;*/
-	/*color: white;*/
-}
-
-/* possible duplicates */
-#resume_section a:hover {
-	/*color: cadetblue;*/
 }
 
 /* Contact section elements */
 #contact_section {
-	/*background: #212529;*/
-	/*color: white;*/
 	text-align: center;
-	/*margin: 5px 0 5px 0;*/
-	/*padding: 6% 0 2% 0;*/
 }
 
 #contact_section form {
 	width: 80%;
-	/*margin: 0 auto;*/
-}
-
-#contact_section a {
-	/*color: white;*/
-	/*text-decoration: none;*/
 }
 
 #contact_section form input {
@@ -165,14 +125,11 @@ body header h1 {
 }
 
 #contact_section a:hover {
-	/*color: cadetblue;*/
 }
 
 /* Footer elements */
 body footer {
-	/*background: #212529;*/
 	text-align: center;
-	/*color: white;*/
 }
 
 /* Back to top button */
