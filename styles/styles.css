@@ -20,13 +20,8 @@ html {
 
 /* Body section elements */
 body {
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Arial', sans-serif;
 	width: 100%;
-}
-
-/* Headers */
-body h1, h2, h3, h4, h5 {
-	font-family: 'Raleway', sans-serif;
 }
 
 /* Header section elements */
@@ -64,8 +59,6 @@ body h1, h2, h3, h4, h5 {
 /* Headings */
 body header h1 {
 	text-align: center;
-	color: #343a40;
-	font-size: 230%;
 }
 
 /* About section elements */
