@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css?family=Raleway|Titillium+Web');
 
 /*
 	Author: Jorge Gonzalez
@@ -18,13 +17,21 @@ html {
 	margin: 0;
 }
 
-/* Body section elements */
+/* Body elements */
 body {
 	font-family: 'Arial', sans-serif;
 	width: 100%;
 }
 
-/* Header section elements */
+section {
+	text-align: center;
+}
+
+#showcase_section img {
+	width: 50%;
+}
+
+/* Header elements */
 .custom-header {
 	padding-top: calc(var(--navbar-height) + 1rem) !important;
 }
@@ -61,35 +68,6 @@ body header h1 {
 	text-align: center;
 }
 
-/* About section elements */
-#about_section {
-	text-align: center;
-}
-
-/* Skills section elements */
-#skills_section {
-	text-align: center;
-}
-
-/* Showcase section elements */
-#showcase_section {
-	text-align: center;
-}
-
-#screenOne, #screenTwo, #screenThree, #screenFour, #screenFive {
-	width: 50%;
-}
-
-/* Resume section elements */
-#resume_section {
-	text-align: center;
-}
-
-/* Contact section elements */
-#contact_section {
-	text-align: center;
-}
-
 #contact_section form {
 	width: 80%;
 }
@@ -115,9 +93,6 @@ body header h1 {
 #contact_section form textarea {
 	width: 30%;
 	margin: -2% 30% 0 4%;
-}
-
-#contact_section a:hover {
 }
 
 /* Footer elements */
